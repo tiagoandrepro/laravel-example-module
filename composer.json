@@ -1,0 +1,25 @@
+{
+    "name": "tiagoandrepro/laravel-example-module",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Tiagoandrepro\\Contacts\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Tiago André",
+            "email": "thiago_andre@live.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Tiagoandrepro\\Contacts\\Providers\\ContactServiceProvider"
+            ]
+        }
+    }
+}
